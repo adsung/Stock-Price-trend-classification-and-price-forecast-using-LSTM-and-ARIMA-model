@@ -17,7 +17,7 @@ Specifically, the aforemetioned approaches to predict stock price trend and pric
 
 1. Build an RNN model or Long-short term mememory network that would predict the price trend of a company's stock; and
 
-2. Predict the future price of a company's stock using an ARIMA model.
+2. Predict the future price of a company's stock using a seasonal ARIMA model.
 
 Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The website link is: [*]
 
@@ -30,13 +30,24 @@ Once the above is completed, we built a website that mimicked an individual's st
 
 ### Predict the future price of a company's stock using an ARIMA model.
 
-[*]
+1. Import relevant libaries
+2. Extract historical closing price data using fix_yahoo_finance
+3. Preprocess data    
+    a. Set data into a pandas dataframe  
+    b. Group price data by average monthly closing price  
+    c. Ensure data has no missing values  
+4. Explore timeseries data and its individual compositions as a visualisation 
+5. Implement a gridsearch to identify optimum paramaters (p,d,q)(P,D,Q) that produces best fit model for timeseries data  
+6. Build model, enforce stationarity on stock data  
+7. Run model diagonostics   
+8. Validate and visualize model performance   
+9. Use seasonal ARIMA model to forecast future values 
 
 ## Results and Achievements
 
-* Built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
-* Built an ARIMA model that could predict the future values of a stock's price for the next [5] periods
-* 
+* Successfully built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
+* Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming [5] periods
+*
 
 ## Software and Libraries
 
@@ -46,9 +57,5 @@ Pandas
 Keras
 Tensorflow
 Jupyter Notebook
-
-
-
-
-
-
+Statsmodel
+Plotly
