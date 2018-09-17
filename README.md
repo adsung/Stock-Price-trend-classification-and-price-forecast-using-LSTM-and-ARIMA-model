@@ -38,10 +38,9 @@ Once the above is completed, we built a website that mimicked an individual's st
     c. Ensure data has no missing values  
 4. Explore timeseries data and its individual compositions as a visualisation 
 5. Implement a gridsearch to identify optimum paramaters (p,d,q)(P,D,Q) that produces best fit model for timeseries data  
-6. Build model, enforce stationarity on stock data  
-7. Run model diagonostics   
-8. Validate and visualize model performance   
-9. Use seasonal ARIMA model to forecast future values 
+6. Build model, enforce stationarity on stock data     
+7. Validate and visualize model performance   
+8. Use seasonal ARIMA model to forecast future values 
 
 ## Results and Achievements
 
