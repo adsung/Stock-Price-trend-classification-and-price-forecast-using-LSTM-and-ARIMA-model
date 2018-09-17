@@ -5,44 +5,38 @@
 As of April 2018, the Stock Exchange of Hong Kong (SEHK) is Asia's 3rd-largest stock exchange ranked by market capitalisation, 
 and also the 7th largest in the world. 
 With over 2,100 companies listed on the SEHK, there is a wealth of company performance and financial data that can
-be used to explore various deep learning approaches that could be applied to predict a company's stock price.
+be used to explore the concept of deep learning and prediction models using various Python libraries.
 
 
 ## Project Overview
 
-This project aims to explore 3 different approaches in which deep learning models and techniques can be
-implemented to predict stock prices and patterns using Tensorflow and Keras. Specifically, this project utilzes 
-Recurrent Neural Networks (RNN), Long-Short Term Memory (LSTM) networks to predict the price trend and closing price of a
-stock listed on the SEHK using a dataset of past prices.
+This project aims to explore 2 different approaches in which deep learning models and statistical techniques can be
+implemented to predict stock prices trends. 
 
-The aforemetioned approaches of deep learning application to stock price prediction is as follows:
+Specifically, the aforemetioned approaches to predict stock price trend and price, respectfully, is as follows:
 
-1. Build an RNN model that would predict the price trend of a company's stock; 
+1. Build an RNN model or Long-short term mememory network that would predict the price trend of a company's stock; and
 
-2. Perform stock clustering on listed stocks on the SEHK based on their historical price movement; and
+2. Predict the future price of a company's stock using an ARIMA model.
 
-3. The Hang Seng Index (HSI) is a market capitalization-weighted index of the largest companies that trade
-on the SEHK. We will use Keras to build an LSTM model that would predict the stock price of a company listed 
-on the HSI based on its previous historical closing price data.
+Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The website link is: [*]
 
 
 ## Methodology
 
-### Predicting stock price trend
+### Predicting stock price trend using an LSTM network
 
 [*]
 
-### Stock clustering
-
-[*]
-
-### Predicting stock price using LSTM model
+### Predict the future price of a company's stock using an ARIMA model.
 
 [*]
 
 ## Results and Achievements
 
-[*]
+* Built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
+* Built an ARIMA model that could predict the future values of a stock's price for the next [5] periods
+* 
 
 ## Software and Libraries
 
