@@ -53,11 +53,12 @@ Website link:
 
 ## Software and Libraries
 
-Python 3.6
-NumPy
-Pandas
-Keras
-Tensorflow
-Jupyter Notebook
-Statsmodel
-Plotly
+Python 3.6  
+NumPy   
+Pandas  
+Keras       
+Tensorflow  
+Jupyter Notebook    
+Statsmodel  
+Plotly  
+    
