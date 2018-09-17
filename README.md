@@ -19,7 +19,7 @@ Specifically, the aforemetioned approaches to predict stock price trend and pric
 
 2. Predict the future price of a company's stock using a seasonal ARIMA model.
 
-Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The website link is: [*]
+Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The link to the website is: [*]
 
 
 ## Methodology
@@ -47,7 +47,9 @@ Once the above is completed, we built a website that mimicked an individual's st
 
 * Successfully built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
 * Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming [5] periods
-*
+* Created a website that extracts relevant data from APIs and presents it to the websites registered user as a website function.
+
+Website link:
 
 ## Software and Libraries
 
