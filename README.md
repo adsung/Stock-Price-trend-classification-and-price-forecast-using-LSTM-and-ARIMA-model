@@ -31,7 +31,7 @@ Once the above is completed, we built a website that mimicked an individual's st
 ### Predict the future price of a company's stock using an ARIMA model.
 
 1. Import relevant libaries
-2. Extract historical closing price data using fix_yahoo_finance
+2. Extract historical closing price data of each SEHK listed stock from 1 January 2014 to [*] using fix_yahoo_finance
 3. Preprocess data    
     a. Set data into a pandas dataframe  
     b. Group price data by average monthly closing price  
