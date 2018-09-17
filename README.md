@@ -15,7 +15,7 @@ implemented to predict stock prices trends.
 
 Specifically, the aforemetioned approaches to predict stock price trend and price, respectfully, is as follows:
 
-1. Build an RNN model or Long-short term memory network that would predict the price trend of a company's stock; and
+1. Use an RNN model or Long-short term memory (LSTM) network that would predict the price trend of a stock (Up, down or neutral); and
 
 2. Predict the future price of a company's stock using a seasonal ARIMA model.
 
