@@ -45,7 +45,7 @@ Once the above is completed, we built a website that mimicked an individual's st
 ## Results and Achievements
 
 * Successfully built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
-* Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming [5] periods
+* Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming 10 periods (months)
 * Created a website that extracts relevant data from APIs and presents it to the websites registered user as a website function.
 
 Website link:
