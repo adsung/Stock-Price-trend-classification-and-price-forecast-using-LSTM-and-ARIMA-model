@@ -19,7 +19,7 @@ Specifically, the aforemetioned approaches to predict stock price trend and pric
 
 2. Predict the future price of a company's stock using a seasonal ARIMA model.
 
-Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The link to the website is: [*]
+Once the above is completed, we built a website that mimicked an individual's stock portfolio with the purpose of linking (1) and (2) together. The link to the website is: http://timtimtimab.pythonanywhere.com
 
 
 ## Methodology
