@@ -26,7 +26,14 @@ Once the above is completed, we built a website that mimicked an individual's st
 
 ### Predicting stock price trend using an LSTM network
 
-[*]
+1. Import relevant libaries  
+2. Load data
+3. Preprocess data  
+4. Perform feature engineering  
+5. Build LSTM neural network using keras    
+6. Fit model. Run 1000 epochs
+7. Evaluate model performance
+8. Conduct price trend prediction for next day
 
 ### Predict the future price of a company's stock using an ARIMA model.
 
