@@ -31,7 +31,7 @@ Once the above is completed, we built a website that mimicked an individual's st
 ### Predict the future price of a company's stock using an ARIMA model.
 
 1. Import relevant libaries
-2. Extract historical closing price data of each SEHK listed stock from 1 January 2014 to [*] using fix_yahoo_finance
+2. Extract historical closing price data of each SEHK listed stock from 1 January 2000 to 18 September 2018 using fix_yahoo_finance
 3. Preprocess data    
     a. Set data into a pandas dataframe  
     b. Group price data by average monthly closing price  
@@ -45,7 +45,7 @@ Once the above is completed, we built a website that mimicked an individual's st
 ## Results and Achievements
 
 * Successfully built an LSTM network algorithm that could predict a company's stock price trend with approximately 80% accuracy.
-* Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming 10 periods (months)
+* Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming 10 periods (10 weeks)
 * Created a website that extracts relevant data from APIs and presents it to the websites registered user as a website function.
 
 Website link:
