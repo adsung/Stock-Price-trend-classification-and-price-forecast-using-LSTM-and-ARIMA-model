@@ -1,4 +1,4 @@
-# Stock-Price-Prediction using RNN and LSTM
+# Stock Price trend Classification using LSTM Neural Netork & Price forecasting using an ARIMA model
 
 ## Introduction
 
