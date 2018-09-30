@@ -55,7 +55,7 @@ Once the above is completed, we built a website that mimicked an individual's st
 * Succesfully built an ARIMA model that could predict the future values of a stock's price for the upcoming 10 periods (10 weeks)
 * Created a website that extracts relevant data from APIs and presents it to the websites registered user as a website function.
 
-Website link:
+Website link:http://timtimtimab.pythonanywhere.com
 
 ## Software and Libraries
 
